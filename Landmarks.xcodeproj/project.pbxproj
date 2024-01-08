@@ -39,7 +39,6 @@
 		E709E72E2B488B9C00740B37 = {
 			isa = PBXGroup;
 			children = (
-				E7F1C89E2B4C623C007A02B9 /* MapView.swift */,
 				E709E7392B488B9C00740B37 /* Landmarks */,
 				E709E7382B488B9C00740B37 /* Products */,
 			);
@@ -56,9 +55,10 @@
 		E709E7392B488B9C00740B37 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				E709E73A2B488B9C00740B37 /* LandmarksApp.swift */,
-				E709E73C2B488B9C00740B37 /* ContentView.swift */,
 				E7F1C89C2B4C5071007A02B9 /* CircleImage.swift */,
+				E709E73C2B488B9C00740B37 /* ContentView.swift */,
+				E709E73A2B488B9C00740B37 /* LandmarksApp.swift */,
+				E7F1C89E2B4C623C007A02B9 /* MapView.swift */,
 				E709E73E2B488B9D00740B37 /* Assets.xcassets */,
 				E709E7402B488B9D00740B37 /* Preview Content */,
 			);
