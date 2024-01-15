@@ -35,6 +35,7 @@
 		E7F1C8E22B4EF723007A02B9 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1C8D42B4EF723007A02B9 /* LandmarksApp.swift */; };
 		E7F1C8E42B4EF74E007A02B9 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1C8E32B4EF74E007A02B9 /* HexagonParameters.swift */; };
 		E7F1C8E82B55765C007A02B9 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1C8E72B55765C007A02B9 /* BadgeBackground.swift */; };
+		E7F1C8EA2B557AB9007A02B9 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1C8E92B557AB9007A02B9 /* BadgeSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		E7F1C8D42B4EF723007A02B9 /* LandmarksApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		E7F1C8E32B4EF74E007A02B9 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = SOURCE_ROOT; };
 		E7F1C8E72B55765C007A02B9 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		E7F1C8E92B557AB9007A02B9 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		E709E7392B488B9C00740B37 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				E7F1C8E92B557AB9007A02B9 /* BadgeSymbol.swift */,
 				E7F1C8E32B4EF74E007A02B9 /* HexagonParameters.swift */,
 				E7F1C8E72B55765C007A02B9 /* BadgeBackground.swift */,
 				E709E73A2B488B9C00740B37 /* LandmarksApp.swift */,
@@ -333,6 +336,7 @@
 				E7F1C8E42B4EF74E007A02B9 /* HexagonParameters.swift in Sources */,
 				E7F1C8DD2B4EF723007A02B9 /* LandmarkRow.swift in Sources */,
 				E7F1C8E12B4EF723007A02B9 /* ContentView.swift in Sources */,
+				E7F1C8EA2B557AB9007A02B9 /* BadgeSymbol.swift in Sources */,
 				E709E73D2B488B9C00740B37 /* ContentView.swift in Sources */,
 				E7F1C8E02B4EF723007A02B9 /* FavoriteButton.swift in Sources */,
 				E7F1C89F2B4C623C007A02B9 /* MapView.swift in Sources */,
