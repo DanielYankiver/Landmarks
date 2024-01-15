@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct BadgeBackground: View {
   var body: some View {
     GeometryReader { geometry in
@@ -19,7 +18,7 @@ struct BadgeBackground: View {
         width *= xScale
         path.move(
           to: CGPoint(
-            x: width * 1.1499 + xOffset,
+            x: width * 0.95 + xOffset,
             y: height * (0.20 + HexagonParameters.adjustment)
           )
         )
@@ -32,7 +31,6 @@ struct BadgeBackground: View {
               y: height * segment.line.y
             )
           )
-
 
           path.addQuadCurve(
             to: CGPoint(
@@ -57,7 +55,6 @@ struct BadgeBackground: View {
   static let gradientStart = Color(red: 239.0 / 255, green: 120.0 / 255, blue: 221.0 / 255)
   static let gradientEnd = Color(red: 239.0 / 255, green: 172.0 / 255, blue: 120.0 / 255)
 }
-
 
 #Preview {
   BadgeBackground()
